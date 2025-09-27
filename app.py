@@ -4,7 +4,8 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return "Hello from the Dockerized Flask App on AWS EC2! yo ANOTHER CHANGE kk g g"
+    return "Hello from the Dockerized Flask App on AWS EC2! yo ANOTHER CHANGE kk g g hello tejpal"
+
 
 if __name__ == '__main__':
     # It's crucial for Flask to listen on 0.0.0.0 for it to be accessible
